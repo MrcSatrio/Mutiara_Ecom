@@ -1,0 +1,39 @@
+<?php
+
+namespace App\Controllers\Public;
+
+use App\Controllers\BaseController;
+
+class Product extends BaseController
+{
+    protected $produkModel;
+    protected $detailtransaksiModel;
+
+    public function index($id_produk)
+{   $produk = base64_decode($id_produk);
+    $rekomendasi = $this->produkModel->find($produk);
+    $id_kategori_produk = $rekomendasi['id_kategori'];
+    $data = [
+        'produk' => $this->produkModel
+            ->join('kategori', 'produk.id_kategori = kategori.id_kategori')
+            ->where('id_produk', $produk)
+            ->findAll(),
+        'penjualan' => $this->detailtransaksiModel
+        ->join('produk', 'detail_transaksi.id_produk = produk.id_produk')
+        ->where('produk.id_produk', $produk)
+        ->countAllResults(),
+        'keranjang' => $this->keranjangModel
+        ->join('akun', 'keranjang.id_akun = akun.id_akun')
+        ->where('keranjang.id_akun', session('id_akun'))
+        ->countAllResults(),   
+        'rekomendasi' => $this->produkModel
+        ->join('kategori', 'produk.id_kategori = kategori.id_kategori')
+        ->where('produk.id_kategori', $id_kategori_produk)
+        ->findAll(),
+    ];
+
+    return view('public/detail_produk', $data);
+}
+
+    
+}

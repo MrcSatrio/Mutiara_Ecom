@@ -1,0 +1,1285 @@
+<<<<<<< HEAD
+INFO - 2023-10-15 02:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-15 02:32:44 --> [DEPRECATED] base64_encode(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\public\cart.php on line 98.
+ 1 APPPATH\Views\public\cart.php(98): base64_encode(null)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\cart.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/cart', [], true)
+ 5 APPPATH\Controllers\Public\Cart.php(46): view('public/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Cart->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 02:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 02:46:27 --> Undefined variable $productId
+in APPPATH\Views\public\payment.php on line 4.
+ 1 APPPATH\Views\public\payment.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productId', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\payment.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\payment.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/payment', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(116): view('public/payment')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->payment()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 02:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 02:46:49 --> Undefined variable $productId
+in APPPATH\Views\public\payment.php on line 4.
+ 1 APPPATH\Views\public\payment.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productId', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\payment.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\payment.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/payment', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(116): view('public/payment')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->payment()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+CRITICAL - 2023-10-15 02:48:22 --> Undefined property: App\Controllers\Public\Transaction::$data
+in APPPATH\Controllers\Public\Transaction.php on line 119.
+ 1 APPPATH\Controllers\Public\Transaction.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Public\\Transaction::$data', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Controllers\\Public\\Transaction.php', 119)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->payment()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+CRITICAL - 2023-10-15 02:48:34 --> Undefined variable $productId
+in APPPATH\Views\public\payment.php on line 4.
+ 1 APPPATH\Views\public\payment.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productId', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\payment.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\payment.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/payment', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(121): view('public/payment')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->payment()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 02:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 02:49:03 --> Call to undefined method App\Controllers\Public\Transaction::getDataAkun()
+in APPPATH\Controllers\Public\Transaction.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 02:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 02:57:22 --> Undefined variable $total_bayar
+in APPPATH\Views\public\payment.php on line 5.
+ 1 APPPATH\Views\public\payment.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_bayar', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\payment.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\payment.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/payment', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(91): view('public/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+CRITICAL - 2023-10-15 02:57:38 --> Undefined variable $total_pembayaran
+in APPPATH\Views\public\payment.php on line 5.
+ 1 APPPATH\Views\public\payment.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_pembayaran', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\payment.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\payment.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/payment', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(91): view('public/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 02:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 03:04:19 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlHandler.php on line 45.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-10-15 03:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 03:29:30 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\Public\Transaction.php on line 105.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Controllers\\Public\\Transaction.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Public\\Transaction')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Public\\Transaction')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Public\\Transaction', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+CRITICAL - 2023-10-15 03:30:06 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\Public\Transaction.php on line 105.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Controllers\\Public\\Transaction.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Public\\Transaction')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Public\\Transaction')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Public\\Transaction', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 03:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 03:39:37 --> Undefined variable $transaksiModel
+in APPPATH\Controllers\Public\Transaction.php on line 111.
+ 1 APPPATH\Controllers\Public\Transaction.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $transaksiModel', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Controllers\\Public\\Transaction.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 03:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 03:54:05 --> Undefined variable $idAkunDecoded
+in APPPATH\Views\public\payment.php on line 4.
+ 1 APPPATH\Views\public\payment.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idAkunDecoded', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\payment.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\payment.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/payment', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(140): view('public/payment')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->payment()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 03:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 04:12:07 --> Undefined variable $booking_code
+in APPPATH\Views\public\payment.php on line 17.
+ 1 APPPATH\Views\public\payment.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $booking_code', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\payment.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\payment.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/payment', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(140): view('public/payment')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->payment()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 04:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 04:38:46 --> Array callback must have exactly two elements
+in APPPATH\Views\public\payment.php on line 17.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/payment', [], true)
+ 4 APPPATH\Controllers\Public\Transaction.php(139): view('public/payment', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->payment('MTA=')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 04:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:50:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 04:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 05:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 06:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 06:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 06:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-15 06:06:36 --> [DEPRECATED] base64_encode(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\public\checkout.php on line 142.
+ 1 APPPATH\Views\public\checkout.php(142): base64_encode(null)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/checkout', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(48): view('public/checkout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->add()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+ERROR - 2023-10-15 06:06:50 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_ecommerce`.`transaksi`, CONSTRAINT `fk_akun` FOREIGN KEY (`id_akun`) REFERENCES `akun` (`id_akun`)) in C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\app\Controllers\Public\Transaction.php(106): CodeIgniter\Model->insert(Array)
+#8 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+#9 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+#10 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\...')
+#13 {main}
+CRITICAL - 2023-10-15 06:06:50 --> Cannot add or update a child row: a foreign key constraint fails (`db_ecommerce`.`transaksi`, CONSTRAINT `fk_akun` FOREIGN KEY (`id_akun`) REFERENCES `akun` (`id_akun`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaksi` (`id_akun`, `id_ekspedisi`, `total_harga`, `created_at`, `updated_at`) VALUES (:id_akun:, :id_ekspedisi:, :total_harga:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(106): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+ERROR - 2023-10-15 06:08:17 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_ecommerce`.`transaksi`, CONSTRAINT `fk_akun` FOREIGN KEY (`id_akun`) REFERENCES `akun` (`id_akun`)) in C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\app\Controllers\Public\Transaction.php(105): CodeIgniter\Model->insert(Array)
+#8 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+#9 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+#10 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\...')
+#13 {main}
+CRITICAL - 2023-10-15 06:08:17 --> Cannot add or update a child row: a foreign key constraint fails (`db_ecommerce`.`transaksi`, CONSTRAINT `fk_akun` FOREIGN KEY (`id_akun`) REFERENCES `akun` (`id_akun`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaksi` (`id_akun`, `id_ekspedisi`, `total_harga`, `created_at`, `updated_at`) VALUES (:id_akun:, :id_ekspedisi:, :total_harga:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(105): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+ERROR - 2023-10-15 06:08:39 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_ecommerce`.`transaksi`, CONSTRAINT `fk_akun` FOREIGN KEY (`id_akun`) REFERENCES `akun` (`id_akun`)) in C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\app\Controllers\Public\Transaction.php(104): CodeIgniter\Model->insert(Array)
+#8 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+#9 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+#10 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\...')
+#13 {main}
+CRITICAL - 2023-10-15 06:08:39 --> Cannot add or update a child row: a foreign key constraint fails (`db_ecommerce`.`transaksi`, CONSTRAINT `fk_akun` FOREIGN KEY (`id_akun`) REFERENCES `akun` (`id_akun`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaksi` (`id_akun`, `id_ekspedisi`, `total_harga`, `created_at`, `updated_at`) VALUES (:id_akun:, :id_ekspedisi:, :total_harga:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(104): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 06:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 06:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 06:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 06:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-15 06:10:01 --> [DEPRECATED] base64_encode(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\public\checkout.php on line 142.
+ 1 APPPATH\Views\public\checkout.php(142): base64_encode(null)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/checkout', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(46): view('public/checkout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->add()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+ERROR - 2023-10-15 06:10:14 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_ecommerce`.`transaksi`, CONSTRAINT `fk_akun` FOREIGN KEY (`id_akun`) REFERENCES `akun` (`id_akun`)) in C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\app\Controllers\Public\Transaction.php(104): CodeIgniter\Model->insert(Array)
+#8 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+#9 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+#10 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\...')
+#13 {main}
+CRITICAL - 2023-10-15 06:10:14 --> Cannot add or update a child row: a foreign key constraint fails (`db_ecommerce`.`transaksi`, CONSTRAINT `fk_akun` FOREIGN KEY (`id_akun`) REFERENCES `akun` (`id_akun`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaksi` (`id_akun`, `id_ekspedisi`, `total_harga`, `created_at`, `updated_at`) VALUES (:id_akun:, :id_ekspedisi:, :total_harga:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(104): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+ERROR - 2023-10-15 06:11:09 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_ecommerce`.`transaksi`, CONSTRAINT `fk_akun` FOREIGN KEY (`id_akun`) REFERENCES `akun` (`id_akun`)) in C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\app\Controllers\Public\Transaction.php(104): CodeIgniter\Model->insert(Array)
+#8 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+#9 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+#10 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\...')
+#13 {main}
+CRITICAL - 2023-10-15 06:11:09 --> Cannot add or update a child row: a foreign key constraint fails (`db_ecommerce`.`transaksi`, CONSTRAINT `fk_akun` FOREIGN KEY (`id_akun`) REFERENCES `akun` (`id_akun`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaksi` (`id_akun`, `id_ekspedisi`, `total_harga`, `created_at`, `updated_at`) VALUES (:id_akun:, :id_ekspedisi:, :total_harga:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(104): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+ERROR - 2023-10-15 06:12:43 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_ecommerce`.`transaksi`, CONSTRAINT `fk_akun` FOREIGN KEY (`id_akun`) REFERENCES `akun` (`id_akun`)) in C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\app\Controllers\Public\Transaction.php(104): CodeIgniter\Model->insert(Array)
+#8 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+#9 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+#10 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\...')
+#13 {main}
+CRITICAL - 2023-10-15 06:12:43 --> Cannot add or update a child row: a foreign key constraint fails (`db_ecommerce`.`transaksi`, CONSTRAINT `fk_akun` FOREIGN KEY (`id_akun`) REFERENCES `akun` (`id_akun`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaksi` (`id_akun`, `id_ekspedisi`, `total_harga`, `created_at`, `updated_at`) VALUES (:id_akun:, :id_ekspedisi:, :total_harga:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(104): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+ERROR - 2023-10-15 06:12:59 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_ecommerce`.`transaksi`, CONSTRAINT `fk_akun` FOREIGN KEY (`id_akun`) REFERENCES `akun` (`id_akun`)) in C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\app\Controllers\Public\Transaction.php(104): CodeIgniter\Model->insert(Array)
+#8 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+#9 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+#10 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\...')
+#13 {main}
+CRITICAL - 2023-10-15 06:12:59 --> Cannot add or update a child row: a foreign key constraint fails (`db_ecommerce`.`transaksi`, CONSTRAINT `fk_akun` FOREIGN KEY (`id_akun`) REFERENCES `akun` (`id_akun`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaksi` (`id_akun`, `id_ekspedisi`, `total_harga`, `created_at`, `updated_at`) VALUES (:id_akun:, :id_ekspedisi:, :total_harga:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(104): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 06:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 06:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 06:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 06:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 06:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 06:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+=======
+INFO - 2023-10-15 02:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 02:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 03:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+>>>>>>> ff5f06f57bd3ec996546bb23304831258c1200c4
+INFO - 2023-10-15 15:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 15:12:32 --> cURL error 35: OpenSSL SSL_connect: Connection was reset in connection to api.rajaongkir.com:443  (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.rajaongkir.com/starter/province
+in VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 210.
+ 1 VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), [...])
+ 2 VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+ 3 VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+ 4 VENDORPATH\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), [...])
+ 5 VENDORPATH\guzzlehttp\guzzle\src\Handler\Proxy.php(48): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), [...])
+ 6 VENDORPATH\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(35): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), [...])
+ 7 VENDORPATH\guzzlehttp\guzzle\src\Middleware.php(31): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), [...])
+ 8 VENDORPATH\guzzlehttp\guzzle\src\RedirectMiddleware.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), [...])
+ 9 VENDORPATH\guzzlehttp\guzzle\src\Middleware.php(66): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), [...])
+10 VENDORPATH\guzzlehttp\guzzle\src\HandlerStack.php(75): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), [...])
+11 VENDORPATH\guzzlehttp\guzzle\src\Client.php(333): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), [...])
+12 VENDORPATH\guzzlehttp\guzzle\src\Client.php(169): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), [...])
+13 VENDORPATH\guzzlehttp\guzzle\src\Client.php(189): GuzzleHttp\Client->requestAsync('GET', Object(GuzzleHttp\Psr7\Uri), [...])
+14 APPPATH\Controllers\Public\Transaction.php(27): GuzzleHttp\Client->request('GET', 'https://api.rajaongkir.com/starter/province', [...])
+15 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->add()
+16 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+17 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+19 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+CRITICAL - 2023-10-15 15:12:34 --> cURL error 6: Could not resolve host: api.rajaongkir.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.rajaongkir.com/starter/province
+in VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 210.
+ 1 VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), [...])
+ 2 VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+ 3 VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+ 4 VENDORPATH\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), [...])
+ 5 VENDORPATH\guzzlehttp\guzzle\src\Handler\Proxy.php(48): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), [...])
+ 6 VENDORPATH\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(35): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), [...])
+ 7 VENDORPATH\guzzlehttp\guzzle\src\Middleware.php(31): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), [...])
+ 8 VENDORPATH\guzzlehttp\guzzle\src\RedirectMiddleware.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), [...])
+ 9 VENDORPATH\guzzlehttp\guzzle\src\Middleware.php(66): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), [...])
+10 VENDORPATH\guzzlehttp\guzzle\src\HandlerStack.php(75): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), [...])
+11 VENDORPATH\guzzlehttp\guzzle\src\Client.php(333): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), [...])
+12 VENDORPATH\guzzlehttp\guzzle\src\Client.php(169): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), [...])
+13 VENDORPATH\guzzlehttp\guzzle\src\Client.php(189): GuzzleHttp\Client->requestAsync('GET', Object(GuzzleHttp\Psr7\Uri), [...])
+14 APPPATH\Controllers\Public\Transaction.php(27): GuzzleHttp\Client->request('GET', 'https://api.rajaongkir.com/starter/province', [...])
+15 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->add()
+16 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+17 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+19 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+CRITICAL - 2023-10-15 15:12:34 --> cURL error 6: Could not resolve host: api.rajaongkir.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.rajaongkir.com/starter/province
+in VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 210.
+ 1 VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), [...])
+ 2 VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+ 3 VENDORPATH\guzzlehttp\guzzle\src\Handler\CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+ 4 VENDORPATH\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), [...])
+ 5 VENDORPATH\guzzlehttp\guzzle\src\Handler\Proxy.php(48): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), [...])
+ 6 VENDORPATH\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(35): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), [...])
+ 7 VENDORPATH\guzzlehttp\guzzle\src\Middleware.php(31): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), [...])
+ 8 VENDORPATH\guzzlehttp\guzzle\src\RedirectMiddleware.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), [...])
+ 9 VENDORPATH\guzzlehttp\guzzle\src\Middleware.php(66): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), [...])
+10 VENDORPATH\guzzlehttp\guzzle\src\HandlerStack.php(75): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), [...])
+11 VENDORPATH\guzzlehttp\guzzle\src\Client.php(333): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), [...])
+12 VENDORPATH\guzzlehttp\guzzle\src\Client.php(169): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), [...])
+13 VENDORPATH\guzzlehttp\guzzle\src\Client.php(189): GuzzleHttp\Client->requestAsync('GET', Object(GuzzleHttp\Psr7\Uri), [...])
+14 APPPATH\Controllers\Public\Transaction.php(27): GuzzleHttp\Client->request('GET', 'https://api.rajaongkir.com/starter/province', [...])
+15 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->add()
+16 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+17 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+19 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+CRITICAL - 2023-10-15 15:15:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\public\checkout.php on line 87.
+ 1 APPPATH\Views\public\checkout.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\checkout.php', 87)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/checkout', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(47): view('public/checkout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->add()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 15:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-15 15:55:53 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `al...', 0)
+#1 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\app\Controllers\Public\Transaction.php(111): CodeIgniter\Model->insert(Array)
+#8 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+#9 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+#10 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\...')
+#13 {main}
+CRITICAL - 2023-10-15 15:55:53 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alamat` (`alamat`, `provinsi`, `kota`, `kecamatan`, `kelurahan`, `kode_pos`, `created_at`, `updated_at`) VALUES (:alamat:, :provinsi:, :kota:, :kecamatan:, :kelurahan:, :kode_pos:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(111): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 15:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 16:22:21 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('DELETE FROM `keranjang`
+WHERE `id_keranjang` IN :id_keranjang:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `keranjang`
+WHERE `id_keranjang` IN :id_keranjang:', [...], false)
+ 7 SYSTEMPATH\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+ 8 SYSTEMPATH\BaseModel.php(1080): CodeIgniter\Model->doDelete([...], false)
+ 9 APPPATH\Controllers\Public\Transaction.php(106): CodeIgniter\BaseModel->delete([...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->checkout()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 16:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 16:55:55 --> syntax error, unexpected token "endforeach"
+in APPPATH\Views\public\detail_produk.php on line 95.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/detail_produk', [], true)
+ 3 APPPATH\Controllers\Public\Product.php(29): view('public/detail_produk', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Product->index('Mg==')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 16:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 16:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 17:12:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\public\payment.php on line 17.
+ 1 APPPATH\Views\public\payment.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\payment.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\payment.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/payment', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(179): view('public/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->payment('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 17:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 17:23:11 --> Call to a member function base64_encode() on null
+in APPPATH\Views\template-public\topbar.php on line 54.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('template-public/topbar', null, true)
+ 4 APPPATH\Views\template-public\index.php(67): CodeIgniter\View\View->include('template-public/topbar')
+ 5 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\template-public\\index.php')
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('template-public/index', [], true)
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/dashboard', [], true)
+ 9 APPPATH\Controllers\Public\Dashboard.php(24): view('public/dashboard', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Dashboard->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Dashboard))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 17:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 17:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 18:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 18:02:31 --> Array callback must have exactly two elements
+in APPPATH\Views\public\history.php on line 24.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/history', [], true)
+ 4 APPPATH\Controllers\Public\Transaction.php(195): view('public/history', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+CRITICAL - 2023-10-15 18:03:30 --> Undefined variable $pk
+in APPPATH\Views\public\history.php on line 24.
+ 1 APPPATH\Views\public\history.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pk', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/history', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(195): view('public/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 18:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 18:05:05 --> Undefined array key "nama_produk"
+in APPPATH\Views\public\history.php on line 44.
+ 1 APPPATH\Views\public\history.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_produk"', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php', 44)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/history', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(195): view('public/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+ERROR - 2023-10-15 18:05:57 --> mysqli_sql_exception: Unknown column 'transaksi.id_produk' in 'on clause' in C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\app\Controllers\Public\Transaction.php(193): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+#8 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+#9 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\marcs\OneDrive\Documents\GitHub\ci-ecomerce\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\...')
+#12 {main}
+CRITICAL - 2023-10-15 18:05:57 --> Unknown column 'transaksi.id_produk' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaksi`
+JOIN `detail_transaksi` ON `transaksi`.`id_transaksi` = `detail_transaksi`.`id_transaksi`
+JOIN `alamat` ON `transaksi`.`id_alamat` = `alamat`.`id_alamat`
+JOIN `akun` ON `transaksi`.`id_akun` = `akun`.`id_akun`
+JOIN `produk` ON `transaksi`.`id_produk` = `produk`.`id_produk`
+WHERE `transaksi`.`id_akun` = :transaksi.id_akun:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Public\Transaction.php(193): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 18:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 18:08:58 --> Undefined array key "tanggal_pengiriman"
+in APPPATH\Views\public\history.php on line 38.
+ 1 APPPATH\Views\public\history.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_pengiriman"', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php', 38)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/history', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(196): view('public/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+CRITICAL - 2023-10-15 18:09:22 --> Undefined array key "items"
+in APPPATH\Views\public\history.php on line 45.
+ 1 APPPATH\Views\public\history.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "items"', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php', 45)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/history', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(196): view('public/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+CRITICAL - 2023-10-15 18:12:22 --> syntax error, unexpected token "endforeach", expecting "elseif" or "else" or "endif"
+in APPPATH\Views\public\history.php on line 73.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/history', [], true)
+ 3 APPPATH\Controllers\Public\Transaction.php(196): view('public/history', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 18:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 18:15:01 --> Undefined array key "updated_at"
+in APPPATH\Views\public\history.php on line 21.
+ 1 APPPATH\Views\public\history.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "updated_at"', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/history', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(219): view('public/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+CRITICAL - 2023-10-15 18:15:07 --> Undefined array key "update_at"
+in APPPATH\Views\public\history.php on line 21.
+ 1 APPPATH\Views\public\history.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "update_at"', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/history', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(219): view('public/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+CRITICAL - 2023-10-15 18:15:37 --> Undefined array key "updated_at"
+in APPPATH\Views\public\history.php on line 21.
+ 1 APPPATH\Views\public\history.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "updated_at"', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/history', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(219): view('public/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 18:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 18:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 18:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 18:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 18:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 18:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 18:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 18:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 18:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 18:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 18:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 18:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 18:32:06 --> Undefined array key "total_harga"
+in APPPATH\Views\public\history.php on line 53.
+ 1 APPPATH\Views\public\history.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_harga"', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/history', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(219): view('public/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+CRITICAL - 2023-10-15 18:32:41 --> Undefined array key "total_harga"
+in APPPATH\Views\public\history.php on line 15.
+ 1 APPPATH\Views\public\history.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_harga"', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/history', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(219): view('public/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+CRITICAL - 2023-10-15 18:38:19 --> Undefined array key "resi"
+in APPPATH\Views\public\history.php on line 15.
+ 1 APPPATH\Views\public\history.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "resi"', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/history', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(219): view('public/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+CRITICAL - 2023-10-15 18:45:00 --> syntax error, unexpected token "="
+in APPPATH\Controllers\Public\Transaction.php on line 198.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Controllers\\Public\\Transaction.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Public\\Transaction')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Public\\Transaction')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Public\\Transaction', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+CRITICAL - 2023-10-15 18:45:11 --> Undefined variable $pembayaran
+in APPPATH\Views\public\history.php on line 53.
+ 1 APPPATH\Views\public\history.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pembayaran', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/history', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(220): view('public/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 18:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 18:49:01 --> Undefined array key "total"
+in APPPATH\Views\public\history.php on line 44.
+ 1 APPPATH\Views\public\history.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total"', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php', 44)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/history', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(220): view('public/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 18:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 18:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 18:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 18:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 18:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 18:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 18:59:43 --> Undefined array key "resi"
+in APPPATH\Views\public\history.php on line 16.
+ 1 APPPATH\Views\public\history.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "resi"', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/history', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(221): view('public/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+CRITICAL - 2023-10-15 19:00:11 --> Undefined array key "resi"
+in APPPATH\Views\public\history.php on line 16.
+ 1 APPPATH\Views\public\history.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "resi"', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/history', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(222): view('public/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 19:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 19:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 19:04:10 --> Undefined array key "alamat"
+in APPPATH\Views\public\history.php on line 55.
+ 1 APPPATH\Views\public\history.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alamat"', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php', 55)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/history', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(223): view('public/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+CRITICAL - 2023-10-15 19:04:40 --> Undefined array key "alamat"
+in APPPATH\Views\public\history.php on line 27.
+ 1 APPPATH\Views\public\history.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alamat"', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/history', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(223): view('public/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+CRITICAL - 2023-10-15 19:05:16 --> Undefined array key "id_alamat"
+in APPPATH\Views\public\history.php on line 27.
+ 1 APPPATH\Views\public\history.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_alamat"', 'C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\history.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/history', [], true)
+ 5 APPPATH\Controllers\Public\Transaction.php(223): view('public/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Transaction->history()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
+INFO - 2023-10-15 19:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 19:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 19:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 19:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,12 @@
+CRITICAL - 2023-12-04 07:32:54 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 423.
+ 1 APPPATH\Views\public\dashboard.php(4): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\app\\Views\\public\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('public/dashboard', [], true)
+ 5 APPPATH\Controllers\Public\Dashboard.php(25): view('public/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Public\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Public\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marcs\\OneDrive\\Documents\\GitHub\\ci-ecomerce\\public\\index.php')
