@@ -116,10 +116,9 @@
 						<p class="mb-4">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
 
 						<ul class="list-unstyled custom-social">
-							<li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
-							<li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
-							<li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
-							<li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
+							<li><a href="https://www.facebook.com/mutiaraecoprint"><span class="fa fa-brands fa-facebook-f"></span></a></li>
+							<li><a href="https://api.whatsapp.com/send/?phone=%2B6287874478742&text&type=phone_number&app_absent=0"><span class="fa fa-brands fa-whatsapp"></span></a></li>
+							<li><a href="https://www.instagram.com/mutiaracraftbekasi?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA=="><span class="fa fa-brands fa-instagram"></span></a></li>
 						</ul>
 					</div>
 
