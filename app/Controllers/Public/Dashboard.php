@@ -8,6 +8,7 @@ class Dashboard extends BaseController
 {
     protected $produkModel;
     protected $keranjangModel;
+    protected $iklanModel;
 
     public function index()
     {
@@ -17,6 +18,9 @@ class Dashboard extends BaseController
                 ->join('kategori', 'produk.id_kategori = kategori.id_kategori')
                 ->limit(3)
                 ->findAll(), 
+        'iklan' => $this->iklanModel
+                ->where('nama_iklan', 'popup') // Mengganti 'iklan' dengan 'jenis_iklan' dan menggunakan nilai 'popup'
+                ->findAll(),
         'keranjang' => $this->keranjangModel
                 ->join('akun', 'keranjang.id_akun = akun.id_akun')
                 ->where('keranjang.id_akun', session('id_akun'))
@@ -48,6 +52,9 @@ class Dashboard extends BaseController
     'produk' => $this->produkModel
             ->join('kategori', 'produk.id_kategori = kategori.id_kategori')
             ->findAll(), 
+    'iklan' => $this->iklanModel
+            ->where('nama_iklan', 'banner') // Mengganti 'iklan' dengan 'jenis_iklan' dan menggunakan nilai 'popup'
+            ->findAll(),
     'keranjang' => $this->keranjangModel
             ->join('akun', 'keranjang.id_akun = akun.id_akun')
             ->where('keranjang.id_akun', session('id_akun'))

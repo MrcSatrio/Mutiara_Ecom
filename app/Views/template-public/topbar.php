@@ -23,7 +23,7 @@
 
     <div class="collapse navbar-collapse" id="navbarsFurni">
         <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('/') ?>">Home</a>
             </li>
             <li><a class="nav-link" href="<?= base_url('/shop') ?>">Shop</a></li>

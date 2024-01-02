@@ -1,6 +1,81 @@
 <?= $this->extend('template-public/index'); ?>
 
 <?php $this->section('container'); ?>
+<script type="text/javascript">
+function showPopup() {
+  var popup = document.getElementById("popup");
+  popup.style.display = "block";
+}
+
+function hidePopup() {
+  var popup = document.getElementById("popup");
+  popup.style.display = "none";
+}
+</script>
+
+<style>
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  width: 70vw; /* Lebar relatif ke viewport width (vw) */
+  max-width: 90%; /* Lebar maksimum */
+  max-height: 80vh; /* Tinggi maksimum */
+  background-color: #fff;
+  overflow: auto; /* Menambahkan overflow jika kontennya besar */
+  position: relative;
+}
+
+.popup-image {
+  width: 100%; /* Menggunakan lebar 100% sesuai dengan ukuran parent */
+  height: auto; /* Tinggi otomatis agar aspek rasio tetap terjaga */
+  display: block;
+  margin: 0; /* Hilangkan margin */
+  padding: 0; /* Hilangkan padding */
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0); /* Nilai alfa 0 membuat background transparan */
+}
+
+</style>
+
+
+
+
+
+<div id="popup" class="popup">
+  <div class="popup-content">
+  <?php
+if (!empty($iklan) && isset($iklan[0]['gambar_iklan'])) {
+    echo '<img src="' . base_url('uploads/iklan/' . $iklan[0]['gambar_iklan']) . '" class="popup-image" style="max-width: 100%; max-height: 100%;">';
+} else {
+    echo 'Array $iklan kosong atau kunci "gambar_iklan" tidak ditemukan dalam array.';
+}
+?>
+    <button onclick="hidePopup()" class="close-button">
+      <i class="fa-x"></i>
+    </button>
+  </div>
+</div>
+
 
 	<body>
 

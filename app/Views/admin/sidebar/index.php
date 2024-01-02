@@ -43,6 +43,19 @@
             </div>
         </div>
     </li>
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+            <i class="fas fa-headset"></i>
+            <span>Iklan</span>
+        </a>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">Manajemen Iklan :</h6>
+                <a class="collapse-item" href="<?= base_url('admin/iklan/read') ?>">List Iklan</a>
+                <a class="collapse-item" href="<?= base_url('admin/iklan/create') ?>">Tambah Iklan</a>
+            </div>
+        </div>
+    </li>
 
 
 

@@ -1,8 +1,37 @@
 <?= $this->extend('template-public/index'); ?>
 <?php $this->section('container'); ?>
+<style>
+    .carousel-item {
+        height: 300px; /* Set your desired height here */
+    }
+</style>
 
+<br>
 
-		<!-- Start Hero Section -->
+<div class="container">
+    <!-- Start Hero Section -->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <?php for ($i = 0; $i < 3; $i++): ?>
+                <?php if (isset($iklan[$i]['gambar_iklan'])): ?>
+                    <div class="carousel-item <?= $i === 0 ? 'active' : '' ?>">
+                        <img src="<?= base_url('uploads/iklan/' . $iklan[$i]['gambar_iklan']) ?>" class="d-block w-100" alt="...">
+                    </div>
+                <?php endif; ?>
+            <?php endfor; ?>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
 
 		<!-- End Hero Section -->
 

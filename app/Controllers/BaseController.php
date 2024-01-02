@@ -19,6 +19,7 @@ use App\Models\ProdukModel;
 use App\Models\RoleModel;
 use App\Models\StatusModel;
 use App\Models\TransaksiModel;
+use App\Models\IklanModel;
 use Config\Services;
 
 
@@ -46,6 +47,7 @@ abstract class BaseController extends Controller
     protected $roleModel = RoleModel::class;
     protected $statusModel = StatusModel::class;
     protected $transaksiModel = TransaksiModel::class;
+    protected $iklanModel = IklanModel::class;
 
     /**
      * Instance of the main Request object.
@@ -90,6 +92,7 @@ abstract class BaseController extends Controller
         $this->roleModel = new RoleModel();
         $this->statusModel = new StatusModel();
         $this->transaksiModel = new TransaksiModel();
+        $this->iklanModel = new IklanModel();
   
     }
 }
