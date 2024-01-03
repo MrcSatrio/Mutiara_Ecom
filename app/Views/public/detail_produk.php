@@ -23,7 +23,6 @@
                             <?= $pk['nama_produk'] ?>
                         </h4>
                         <div class="d-flex flex-row my-3">
-                            <span class="text-muted"><i class="fas fa-shopping-basket fa-sm mx-1"></i><?php echo $penjualan ?> Penjualan</span>
                             <?php if ($pk['stok'] <= 0): ?>
                                 <span class="text-danger ms-2">Stok Habis</span>
                             <?php elseif ($pk['stok'] <= 5): ?>

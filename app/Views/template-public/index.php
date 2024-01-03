@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Team">
-    <title>ECOMMERCE KU</title>
+    <title>MutiaraCraftBekasi</title>
 
     <!-- Bootstrap CSS -->
 
@@ -201,7 +201,7 @@
             <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                <a class="btn btn-primary" <a href="<?php echo base_url(); ?>/logout">Logout</a>
+                <a class="btn btn-primary" href="<?php echo base_url(); ?>/logout">Logout</a>
             </div>
         </div>
     </div>
@@ -292,19 +292,8 @@
     option {
         background-color: #f5f5f5;
         color: #333;
-}
-  /* Mengatur lebar dan tinggi carousel */
-  #myCarousel {
-    width: auto; /* Ubah sesuai dengan lebar yang Anda inginkan */
-    height: 100%; /* Ubah sesuai dengan tinggi yang Anda inginkan */
-}
+    }
 
-/* Mengatur ukuran gambar dalam carousel */
-.carousel-inner img {
-    width: 100%; /* Gambar akan mengisi seluruh lebar carousel */
-    height: 400px; /* Gambar akan mengisi seluruh tinggi carousel */
-    object-fit: cover; /* Untuk memastikan gambar selalu mengisi carousel */
-}
 
 </style>
 
