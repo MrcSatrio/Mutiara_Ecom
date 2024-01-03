@@ -85,13 +85,15 @@
 
         <!-- Footer -->
         <footer class="footer-section">
+			<div class="container relative">    
 				<div class="border-top copyright">
 					<div class="row pt-4">
 						<div class="col-lg-6">
 							<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved.</a></p>
-                        </div>
+						</div>
+
 						<div class="col-lg-6 text-center text-lg-end">
-                        <ul class="list-unstyled custom-social">
+						<ul class="list-unstyled custom-social">
 							<li><a href="https://www.facebook.com/mutiaraecoprint"><span class="fa fa-brands fa-facebook-f"></span></a></li>
 							<li><a href="https://api.whatsapp.com/send/?phone=%2B6287874478742&text&type=phone_number&app_absent=0"><span class="fa fa-brands fa-whatsapp"></span></a></li>
 							<li><a href="https://www.instagram.com/mutiaracraftbekasi?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA=="><span class="fa fa-brands fa-instagram"></span></a></li>
