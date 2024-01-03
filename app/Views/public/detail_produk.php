@@ -98,11 +98,11 @@
           <div class="card">
             <div class="card-body">
               <div class="d-flex mb-3">
-                <a href="#" class="me-3">
+                <a href="<?= base_url('/detail/' . $id_produk) ?>" class="me-3">
                   <img src="<?= base_url('uploads/' . $pk['gambar_produk']); ?>" style="min-width: 96px; height: 96px;" class="img-md img-thumbnail" />
                 </a>
                 <div class="info">
-                  <a href="#" class="nav-link mb-1">
+                  <a href="<?= base_url('/detail/' . $id_produk) ?>" class="nav-link mb-1">
                   <?= $pk['nama_produk'] ?></a>
                   <strong class="text-dark">Rp<?= number_format($pk['harga'], 0, ',', '.') ?></strong>
                 </div>
