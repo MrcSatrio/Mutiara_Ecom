@@ -20,6 +20,7 @@ use App\Models\RoleModel;
 use App\Models\StatusModel;
 use App\Models\TransaksiModel;
 use App\Models\IklanModel;
+use App\Models\RekeningModel;
 use Config\Services;
 
 
@@ -48,6 +49,7 @@ abstract class BaseController extends Controller
     protected $statusModel = StatusModel::class;
     protected $transaksiModel = TransaksiModel::class;
     protected $iklanModel = IklanModel::class;
+    protected $rekeningModel = RekeningModel::class;
 
     /**
      * Instance of the main Request object.
@@ -93,6 +95,7 @@ abstract class BaseController extends Controller
         $this->statusModel = new StatusModel();
         $this->transaksiModel = new TransaksiModel();
         $this->iklanModel = new IklanModel();
+        $this->rekeningModel = new RekeningModel();
   
     }
 }

@@ -37,7 +37,7 @@ class Auth extends BaseController
                     case 1:
                         return redirect()->to(base_url('admin/dashboard'));
                     case 2:
-                        return redirect()->to(base_url('/'));
+                        return redirect()->back();
                     default:
                         session()->setFlashdata('error', 'Username atau Password Salah');
                         return redirect()->to(base_url('/'));

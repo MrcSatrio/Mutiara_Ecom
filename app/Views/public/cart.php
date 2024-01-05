@@ -19,8 +19,7 @@
                           $totalBerat += $pk['berat'];?>
                           <?php $id_produk = base64_encode($pk['id_produk']);?>
                           <?php $id_keranjang = base64_encode($pk['id_keranjang']);?>
-
-
+                          
                             <?php
                             $harga = $pk['harga'];
                             $qty = $pk['qty'];
@@ -64,7 +63,7 @@
                                     <div class="float-md-end">
                                     <form action="<?= base_url('/cart/delete/') ?>" method="post">
                                     <input type="hidden" value="<?= $id_keranjang?>" name="id_keranjang">
-                                        <button type="submit" class="btn btn-light border text-danger icon-hover-danger"> Hapus</button>
+                                        <button type="submit" class="btn btn_danger"> Hapus</button>
                                     </form>
                                     </div>
                                 </div>
@@ -98,7 +97,7 @@
                     <input type="hidden" name="id_akun" value="<?= base64_encode(session()->get('id_akun')) ?>">
                     <button type="submit" class="btn btn-success w-100 shadow-0 mb-2">Beli Sekarang</button>
                 </form>
-                <a href="<?= base_url('/') ?>" class="btn btn-light w-100 border mt-2">Kembali</a>
+                <a href="<?= previous_url() ?>" class="btn btn-light w-100 border mt-2">Kembali</a>
             </div>
             <!-- summary -->
         </div>

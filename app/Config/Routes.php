@@ -31,6 +31,7 @@ $routes->get('/transaction/payment/(:any)', 'Public\Transaction::payment/$1');
 $routes->post('/transaction/history', 'Public\Transaction::history');
 $routes->get('public/transaction/getCityData/(:any)', 'Public\Transaction::getCityData/$1');
 $routes->post('rajaongkir/shipping-cost', 'RajaOngkirController::getShippingCost');
+$routes->post('/transaction/bukti', 'Public\Transaction::bukti');
 
 
 

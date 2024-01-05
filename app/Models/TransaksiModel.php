@@ -19,6 +19,7 @@ class TransaksiModel extends Model
         'id_alamat',
         'resi',
         'total_harga',
+        'bukti_pembayaran',
         'created_at',
         'updated_at',
     ];

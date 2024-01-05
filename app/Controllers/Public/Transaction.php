@@ -12,6 +12,7 @@ class Transaction extends BaseController
     protected $alamatModel;
     protected $produkModel;
     protected $keranjangModel;
+    protected $rekeningModel;
 
     public function add()
     {
@@ -175,10 +176,45 @@ class Transaction extends BaseController
                 ->join('akun', 'transaksi.id_akun = akun.id_akun')
                 ->where('transaksi.id_transaksi', $decodeidtransaksi)
                 ->first(),
+            'rekening' => $this->rekeningModel
+            ->first(),
         ];
     
         return view('public/payment', $data);
     }
+
+    public function bukti()
+    {
+        $id_transaksi = $this->request->getPost('id_transaksi');
+        $bukti_pembayaran = $this->request->getFile('bukti_pembayaran');
+        $decodeidtransaksi = base64_decode($id_transaksi);
+    
+        // Pastikan file bukti_pembayaran ada sebelum memproses
+        if ($bukti_pembayaran->isValid() && !$bukti_pembayaran->hasMoved()) {
+            $newFileName = $bukti_pembayaran->getRandomName();
+            
+            // Pindahkan file ke folder uploads/bukti
+            $bukti_pembayaran->move(ROOTPATH . 'public/uploads/bukti', $newFileName);
+    
+            $data = [
+                'bukti_pembayaran' => $newFileName,
+            ];
+    
+            // Update data dengan ID transaksi tertentu
+            $this->transaksiModel
+            ->where('id_transaksi', $decodeidtransaksi)
+            ->set($data)  // Menggunakan set untuk mengatur nilai
+            ->update();
+    
+            session()->setFlashdata('success', 'Upload Bukti Berhasil.');
+            return redirect()->back();
+        } else {
+            session()->setFlashdata('error', 'Upload Bukti Gagal.');
+            return redirect()->back();
+        }
+    }
+    
+    
     public function history()
     {
         $idAkun = $this->request->getPost('id_akun');
@@ -204,6 +240,7 @@ class Transaction extends BaseController
                 $data[$transaksiId] = [
                     'id_transaksi' => $tr['id_transaksi'],
                     'tanggal_pengiriman' => $tr['updated_at'],
+                    'bukti_pembayaran' => $tr['bukti_pembayaran'],
                     'items' => [],
                 ];
             }
@@ -225,8 +262,11 @@ class Transaction extends BaseController
         ->where('transaksi.id_akun', $idAkunDecoded)
         ->findAll();
 
+        $rekening = $this->rekeningModel
+        ->first();
 
-        return view('public/history', ['transaksi' => $data, 'alamat' => $alamat]);
+
+        return view('public/history', ['transaksi' => $data, 'alamat' => $alamat, 'rekening' => $rekening]);
     }
     
            
