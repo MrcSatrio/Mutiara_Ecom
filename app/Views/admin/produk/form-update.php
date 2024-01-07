@@ -1,4 +1,4 @@
-<form action="<?= base_url('admin/produk/update/' . $produk['id_produk']) ?>" method="post" class="needs-validation">
+<form action="<?= base_url('admin/produk/update/' . $produk['id_produk']) ?>"  enctype="multipart/form-data" method="post" class="needs-validation">
      <!-- Display error message if available -->
      <?php if (session()->getFlashdata('error')): ?>
         <div class="alert alert-danger">
@@ -80,6 +80,17 @@
             <?php if (session('validation') && session('validation')->hasError('deskripsi')): ?>
                 <div class="invalid-feedback">
                     <?= session('validation')->getError('deskripsi'); ?>
+                </div>
+            <?php endif; ?>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="gambar_produk" class="col-sm-2 col-form-label">Gambar Produk</label>
+        <div class="col-sm-10">
+            <input type="file" class="form-control <?= (session('validation') && session('validation')->hasError('gambar_produk')) ? 'is-invalid' : ''; ?>" id="gambar_produk" placeholder="Gambar Produk" name="gambar_produk"  value="<?= $produk['gambar_produk']; ?>">
+            <?php if (session('validation') && session('validation')->hasError('gambar_produk')): ?>
+                <div class="invalid-feedback">
+                    <?= session('validation')->getError('gambar_produk'); ?>
                 </div>
             <?php endif; ?>
         </div>

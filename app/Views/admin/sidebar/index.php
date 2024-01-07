@@ -56,6 +56,11 @@
             </div>
         </div>
     </li>
+    <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('admin/bank/read') ?>">
+            <i class="fas fa-fw fa-building"></i>
+            <span>Metode Pembayaran</span></a>
+    </li>
 
 
 

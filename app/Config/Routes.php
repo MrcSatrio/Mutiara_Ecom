@@ -65,7 +65,10 @@ $routes->delete('kategori/delete/(:num)', 'Admin\Kategori\Delete::index/$1');
 //RiwayatTransaksi
 $routes->match(['get', 'post'], 'transaksi/update/(:num)',    'Admin\Transaksi\Update::index/$1');
 $routes->get('transaksi/read', 'Admin\Transaksi\Read::index');
-
+//bank
+$routes->get('bank/read', 'Admin\Bank\Read::index');
+$routes->get('bank/update/(:num)',    'Admin\bank\Update::index/$1');
+$routes->post('bank/update/(:num)',    'Admin\bank\Update::Action_Update/$1');
 //iklan
 $routes->get('iklan/read', 'Admin\iklan\Read::index');
 $routes->delete('iklan/delete/(:num)', 'Admin\iklan\Delete::index/$1');
