@@ -4,6 +4,35 @@
     .carousel-item {
         height: 300px; /* Set your desired height here */
     }
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  display: flex;
+  background-color: #3b5d50;
+  justify-content: center;
+  padding: 10px;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item i {
+  font-size: 24px; /* Sesuaikan ukuran ikon sesuai kebutuhan */
+  margin-right: 5px;
+}
+
+.menu-item span {
+  font-size: 16px;
+}
 </style>
 
 <br>
@@ -32,9 +61,34 @@
         </button>
     </div>
 </div>
+<br>
 
 		<!-- End Hero Section -->
-
+        <div class="container">
+        <div class="menu">
+        <a href="<?= base_url('/shop')?>" class="menu-item">
+    <i class="fas fa-border-all"></i>
+    <span>All</span>
+  </a>
+  <a href="<?= base_url('search/tas')?>" class="menu-item">
+    <i class="fas fa-shopping-bag"></i>
+    <span>Bag</span>
+  </a>
+  <a href="<?= base_url('search/pakaian')?>" class="menu-item">
+    <i class="fas fa-tshirt"></i>
+    <span>Clothes</span>
+  </a>
+  <a href="<?= base_url('search/sepatu')?>" class="menu-item">
+    <i class="fas fa-shoe-prints"></i>
+    <span>Shoes</span>
+  </a>
+  <a href="<?= base_url('search/dompet')?>" class="menu-item">
+    <i class="fas fa-bars"></i>
+    <span>Other</span>
+  </a>
+  <!-- Tambahkan lebih banyak menu-item sesuai dengan kebutuhan Anda -->
+</div>
+        </div>
 		
 
 		<div class="untree_co-section product-section before-footer-section">
