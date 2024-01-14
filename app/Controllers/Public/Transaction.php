@@ -97,6 +97,8 @@ class Transaction extends BaseController
             $nilaiKurir = 2;
         } elseif ($kurir === 'pos') {
             $nilaiKurir = 3;
+        } elseif ($kurir === 'instant') {
+            $nilaiKurir = 4;
         } else {
             $nilaiKurir = 0;
         }

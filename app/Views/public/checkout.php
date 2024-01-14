@@ -76,6 +76,19 @@
                   </div>
                 </div>
               </div>
+
+              <div class="col-lg-4 mb-3">
+                <!-- Default radio -->
+                <div class="form-check h-100 border rounded-3">
+                  <div class="p-3">
+                  <input class="form-check-input" type="radio" name="courier" id="instant" value="instant" required>
+                    <label class="form-check-label" for="instant">
+                      Grab/Gojek Instant<br />
+                    </label>
+                  </div>
+                </div>
+              </div>
+
             </div>
             </div>
 
@@ -232,6 +245,26 @@
     </div>
   </div>
 </section>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Mengambil elemen radio button Gojek/Grab
+      var gojekRadio = document.getElementById('instant');
+
+      // Menambahkan event listener untuk mengamati perubahan pemilihan
+      gojekRadio.addEventListener('change', function () {
+        // Memeriksa apakah Gojek/Grab dipilih
+        if (gojekRadio.checked) {
+          // Menampilkan SweetAlert persetujuan
+          Swal.fire({
+            title: 'Persetujuan',
+            text: 'Kami akan segera menghubungi Anda untuk menentukan harga ongkos pengiriman barang yang Anda pesan.',
+            icon: 'info',
+            confirmButtonText: 'OK'
+          });
+        }
+      });
+    });
+  </script>
 
 <script>
     const provinceSelect = document.getElementById('province');
@@ -293,7 +326,7 @@
 
 
 <script>
-$(document).ready(function () {
+  $(document).ready(function () {
     function calculateShippingCost() {
         var selectedProvinceId = $("#province").val();
         var selectedCityId = $("#city_id").val();
@@ -317,22 +350,34 @@ $(document).ready(function () {
             })
             .then(response => response.json())
             .then(data => {
-              var shippingCost = data.rajaongkir.results[0].costs[0].cost[0].value;
-              var formattedShippingCost = "Rp " + shippingCost.toLocaleString(); // Ubah ke format angka dengan separator ribuan
-              console.log("Biaya Pengiriman: " + formattedShippingCost);
-              $("#biaya-pengiriman").html(formattedShippingCost);
+    if (selectedCourier !== 'instant' && data.rajaongkir.results && data.rajaongkir.results.length > 0) {
+        var shippingCost = data.rajaongkir.results[0]?.costs[0]?.cost[0]?.value;
+        if (shippingCost !== undefined) {
+            var formattedShippingCost = "Rp " + shippingCost.toLocaleString();
+            console.log("Biaya Pengiriman: " + formattedShippingCost);
+            $("#biaya-pengiriman").html(formattedShippingCost);
 
-              var totalHargaProduk = <?= $totalHargaSemuaProduk; ?>; // Ambil total harga produk dari PHP di tampilan
-              var totalPembayaran = totalHargaProduk + shippingCost;
-              var formattedTotalPembayaran = totalPembayaran.toLocaleString(); // Ubah ke format angka dengan separator ribuan
+            var totalHargaProduk = <?= $totalHargaSemuaProduk; ?>;
+            var totalPembayaran = totalHargaProduk + shippingCost;
+            var formattedTotalPembayaran = totalPembayaran.toLocaleString();
 
-              $("#total-pembayaran1").val(totalPembayaran);
-              $("#total-pembayaran2").html('Rp.' + formattedTotalPembayaran);
-              
-            })
-            .catch(error => {
-                console.error("Error:", error);
-            });
+            $("#total-pembayaran1").val(totalPembayaran);
+            $("#total-pembayaran2").html('Rp.' + formattedTotalPembayaran);
+        }
+    } else {
+        // Jika kurir yang dipilih adalah Gojek, hanya set totalPembayaran menjadi totalHargaProduk
+        var totalHargaProduk = <?= $totalHargaSemuaProduk; ?>;
+        $("#biaya-pengiriman").html("Ongkir Manual");
+        $("#total-pembayaran1").val(totalHargaProduk);
+        $("#total-pembayaran2").html('Rp.' + totalHargaProduk.toLocaleString());
+    }
+})
+.catch(error => {
+    console.error("Error:", error);
+});
+
+
+
         }
     }
 
@@ -350,6 +395,8 @@ $(document).ready(function () {
     calculateShippingCost();
 });
 
+
+console.log("Total Harga Produk: " + totalHargaProduk);
 
 
 </script>
