@@ -21,6 +21,7 @@
                         <th>Ekspedisi</th>
                         <th>Tanggal Transaksi</th>
                         <th>Total Pembayaran</th>
+                        <th>Bukti Pembayaran</th>
                         <th style="width: 15%;">Input Resi</th>
                     </tr>
                 </thead>
@@ -51,6 +52,13 @@
                         <td><?= $tr['ekspedisi'] ?></td>
                         <td><?= $tr['tanggal_pengiriman'] ?></td>
                         <td>Rp.<?= number_format($tr['items'][0]['total_harga'], 0, ',', '.') ?></td>
+                      <td>
+                        <?php if (!empty($tr['bukti_pembayaran'])): ?>
+                            <a href="<?= base_url('uploads/bukti/' . $tr['bukti_pembayaran']) ?>" target="_blank" class="btn btn-primary">
+                                Lihat Bukti
+                            </a>
+                        <?php endif; ?>
+                        </td>
                         <td>
                             <a href="<?= base_url('admin/transaksi/update/' . $tr['id_transaksi']) ?>" class="btn btn-sm btn-warning btn-circle update">
                                 <i class="fas fa-truck"></i>

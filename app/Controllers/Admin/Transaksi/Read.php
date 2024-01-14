@@ -53,6 +53,7 @@ class Read extends BaseController
                     'id_transaksi' => $tr['id_transaksi'],
                     'tanggal_pengiriman' => $tr['updated_at'],
                     'ekspedisi' => $tr['nama_ekspedisi'],
+                    'bukti_pembayaran' => $tr['bukti_pembayaran'],
                     'items' => [],
                 ];
             }
